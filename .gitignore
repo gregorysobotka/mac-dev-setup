@@ -1,4 +1,4 @@
 .DS_Store
-# /creds
+/creds
 dotfiles/work-files/eg-*
 dotfiles/work-files/gr-*
