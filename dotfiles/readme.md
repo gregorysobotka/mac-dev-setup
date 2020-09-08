@@ -2,12 +2,12 @@
 
 #### update
 ```
-ZSH_CUSTOM=~/mac-dev-setup/zshcustom
+ZSH_CUSTOM=~/zshcustom
 ```
 
 #### end of file
 ```
-for DOTFILE in `find ~/mac-dev-setup/dotfiles/**/*.zsh`
+for DOTFILE in `find ~/dotfiles/**/*.zsh`
 do
   [ ! -f “$DOTFILE” ] && source "$DOTFILE"
 done
