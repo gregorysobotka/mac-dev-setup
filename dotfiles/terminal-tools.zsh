@@ -20,3 +20,10 @@ show-hidden-files-finder(){
 mk() {
   mkdir -p "$1" && cd "$1"
 }
+
+log-to-file() {
+  DATE_NOW=$(date +"%m-%d-%Y")
+  DATE_NOW_FILENAME="$CUSTOM_LOG_FILES/$DATE_NOW.txt"
+  # 
+  script -a "$DATE_NOW_FILENAME"
+}
