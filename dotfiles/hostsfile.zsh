@@ -1,7 +1,3 @@
-# Hosts file
-
-HOSTFILE=/private/etc/hosts
-
 # add-host() {
 # use: add host file mapping via command line
 # command: add-host my-app.local
@@ -9,12 +5,10 @@ HOSTFILE=/private/etc/hosts
   # echo "127.0.0.1 $1" >> $HOSTFILE
 # }
 
-open-hosts() {
+view-hosts() {
+  echo "$(<$HOSTSFILE)"
+}
+
+edit-hosts() {
   code $HOSTFILE
 }
-
-view-hosts() {
-  echo "$(<$HOSTFILE)"
-}
-
-# END Hosts file

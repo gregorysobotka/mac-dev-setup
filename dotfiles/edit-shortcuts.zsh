@@ -1,11 +1,11 @@
-o-zsh(){
+edit-zsh(){
   code $ZSHPATH
 }
 
-o-zshrc(){
+edit-zshrc(){
   code $ZSHRCPATH
 }
 
-o-dotfiles(){
+edit-dotfiles(){
   code $DOTFILEPATH
 }
