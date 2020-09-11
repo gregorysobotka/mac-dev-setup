@@ -27,3 +27,7 @@ log-to-file() {
   # 
   script -a "$DATE_NOW_FILENAME"
 }
+
+pwdc() {
+  pwd | pbcopy
+}
