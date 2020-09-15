@@ -1,16 +1,6 @@
-### Add to .zshrc
-
-#### update
+### Update (in .zshrc file)
 ```
 ZSH_CUSTOM=~/mac-dev-setup/zshcustom
 ```
-
-#### end of file
-```
-for DOTFILE in `find ~/mac-dev-setup/dotfiles/**/*.zsh`
-do
-  [ ! -f “$DOTFILE” ] && source "$DOTFILE"
-done
-```
-
+### Notes
 https://dotfiles.github.io/

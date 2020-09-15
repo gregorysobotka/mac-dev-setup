@@ -1,6 +1,6 @@
 cs-vscode(){
-echo "
-  code "file,dir"
-  command + shift + p
-"
+  echo "
+    [open file/dir] code "file,dir"
+    [commands] command + shift + p
+  "
 }
