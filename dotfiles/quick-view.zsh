@@ -1,0 +1,3 @@
+view-hosts() {
+  echo "$(<$HOSTSFILE)"
+}

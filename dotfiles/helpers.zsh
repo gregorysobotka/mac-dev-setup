@@ -1,24 +1,20 @@
 # Commands
-lsg() {
-  ls -a | grep $1
+
+describe-helpers(){
+  echo "
+  [history | grep {search}] hg
+  "
 }
 
+
 hg() {
-  history | grep $1
+  history | grep "$@"
 }
 
 reload() {
   echo "reloading ... "
   echo "source ~/.zshrc"
   source ~/.zshrc
-}
-
-show-hidden-files-finder(){
-  defaults write com.apple.Finder AppleShowAllFiles true
-}
-
-mk() {
-  mkdir -p "$1" && cd "$1"
 }
 
 log-to-file() {
@@ -28,6 +24,6 @@ log-to-file() {
   script -a "$DATE_NOW_FILENAME"
 }
 
-pwdc() {
-  pwd | pbcopy
-}
+# Aliases 
+
+alias rl=reload

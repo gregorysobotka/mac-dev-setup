@@ -1,3 +1,7 @@
+edit-hosts() {
+  code $HOSTSFILE
+}
+
 edit-zsh(){
   code $ZSHPATH
 }
