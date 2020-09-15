@@ -1,0 +1,5 @@
+.DS_Store
+/creds
+dotfiles/work-files/eg-*
+dotfiles/work-files/gr-*
+logs/*.txt
