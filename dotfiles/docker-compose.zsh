@@ -7,7 +7,7 @@ dcom-match() {
   dcom config --services | grep $1
 }
 
-dcom-up-match() {
+dcom-um() {
   serviceName=$(docker-compose config --services | grep "$1" )
   dcom-up "$serviceName"
 }
