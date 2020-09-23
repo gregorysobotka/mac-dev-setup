@@ -1,4 +1,4 @@
-for DOTFILE in `find ~/mac-dev-setup/dotfiles/**/*.zsh`
+for DOTFILE in `find $CUSTOM_IMPORT_PATH/dotfiles/**/*.zsh`
 do
   [ ! -f “$DOTFILE” ] && source "$DOTFILE"
 done
