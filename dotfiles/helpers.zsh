@@ -12,8 +12,6 @@ hg() {
 }
 
 reload() {
-  echo "reloading ... "
-  echo "source ~/.zshrc"
   source ~/.zshrc
 }
 
