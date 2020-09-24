@@ -1,0 +1,2 @@
+adoptopenjdk8
+iterm2
