@@ -5,7 +5,7 @@ ZSH_CUSTOM=$CUSTOM_IMPORT_PATH/zshcustom
 ```
 
 ### Resources
-[Tools](/tools)
+[Tools](/install-tools)
 
 ### Notes
 dotfiles: https://dotfiles.github.io/
