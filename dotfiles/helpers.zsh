@@ -22,6 +22,21 @@ log-to-file() {
   script -a "$DATE_NOW_FILENAME"
 }
 
-# Aliases 
+# check if installed
+installed() {
+  # Exit if input is empty
+  if [[ ! -z $1 ]] ; then
+    depInstalled="$(command -v $1)"
+    # echo "$depInstalled"
+    if [[ ! -z "$depInstalled" ]] ; then
+      echo "EXISTS"
+    fi
+  fi
+}
 
+run-from-where() {
+  command -v $1
+}
+
+# Reload Alias 
 alias rl=reload

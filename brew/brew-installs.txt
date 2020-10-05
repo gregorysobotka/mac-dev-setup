@@ -35,6 +35,7 @@ microk8s
 minikube
 ncurses
 netpbm
+nvm
 openssl@1.1
 osx-cpu-temp
 pango
