@@ -1,0 +1,7 @@
+adoptopenjdk/openjdk
+homebrew/bundle
+homebrew/cask
+homebrew/core
+sambadevi/powerlevel9k
+ubuntu/microk8s
+versent/taps

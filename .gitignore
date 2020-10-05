@@ -5,3 +5,5 @@ dotfiles/work-files/gr-*
 logs/*.txt
 
 configs/cookiecutter/*default*.yaml
+
+env/.env*
