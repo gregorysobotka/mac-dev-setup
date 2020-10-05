@@ -1,6 +1,6 @@
 ### Update (in .zshrc file)
 ```
-export CUSTOM_IMPORT_PATH=~/Google-Drive/mac-dev-setup
+export CUSTOM_IMPORT_PATH=~/mac-dev-setup
 ZSH_CUSTOM=$CUSTOM_IMPORT_PATH/zshcustom
 ```
 
