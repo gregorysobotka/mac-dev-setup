@@ -1,5 +1,6 @@
 cs-encryption(){
   echo "
-  openssl list-cipher-commands 
+  openssl list-cipher-commands
+  describe-encrypt
   "
 }

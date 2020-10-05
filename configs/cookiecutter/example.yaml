@@ -1,0 +1,6 @@
+default_context:
+  contact_name: "Gregory Sobotka"
+  contact_email: "gs@gs.com"
+  project_name: "project example"
+  project_slug: "app_boilerplate"
+  include_ui: true

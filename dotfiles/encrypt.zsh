@@ -1,15 +1,22 @@
 describe-encrypt(){
   echo "
-    encrypt-aes256-file
-    decrypt-aes256-file
     *** *** *** *** ***
-    encrypt-aes256-str
-    decrypt-aes256-str
+    enc-str
+    dec-str
     *** *** *** *** ***
-    base64-in-str
-    base64-out-str
+    encrypt-aes256-file file-in.txt file-out.txt
+    decrypt-aes256-file file-in.txt file-out.txt
+    *** *** *** *** ***
+    encrypt-aes256-str 'string to encrypt'
+    encrypt-aes256-str-copy 'string to encrypt'
+    decrypt-aes256-str 'string to decrypt'
+    *** *** *** *** ***
+    base64-in-str 'string to encode'
+    base64-out-str 'string to decode'
+    *** *** *** *** ***
   "
 }
+
 
 encrypt-aes256-file(){
   openssl aes-256-cbc -a -salt -in $1 -out $2
@@ -20,6 +27,11 @@ decrypt-aes256-file(){
 }
 
 encrypt-aes256-str(){
+  echo $1 | openssl aes-256-cbc -a -salt
+}
+
+
+encrypt-aes256-str-copy(){
   echo $1 | openssl aes-256-cbc -a -salt | pbcopy
 }
 
@@ -34,3 +46,6 @@ base64-in-str(){
 base64-out-str(){
   echo $1 | openssl enc -base64 -d
 }
+
+alias enc-str=encrypt-aes256-str
+alias dec-str=decrypt-aes256-str
