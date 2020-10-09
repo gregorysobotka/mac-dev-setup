@@ -1,0 +1,1 @@
+https://github.com/alacritty/alacritty/blob/master/INSTALL.md
