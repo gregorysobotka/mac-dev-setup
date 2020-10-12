@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 describe-encrypt(){
   echo "
     *** *** *** *** ***

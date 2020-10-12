@@ -1,0 +1,1 @@
+[AdoptOpenJDK](https://github.com/AdoptOpenJDK/homebrew-openjdk)

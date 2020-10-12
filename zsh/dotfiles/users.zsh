@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 all-users(){
   less /etc/passwd
 }

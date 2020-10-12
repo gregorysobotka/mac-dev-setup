@@ -1,4 +1,6 @@
-pwdc() {
+#!/bin/zsh
+
+cwd() {
   pwd | pbcopy
 }
 
@@ -12,4 +14,9 @@ show-hidden-files-finder(){
 
 lsg() {
   ls -a | grep "$@"
+}
+
+dir-dif() {
+  # diff -rq $1 $2
+  git diff --no-index $1 $2
 }

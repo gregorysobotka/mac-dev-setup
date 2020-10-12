@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 brew-save-install() {
   brew list > $CUSTOM_IMPORT_PATH/brew/brew-installs.txt
 }
