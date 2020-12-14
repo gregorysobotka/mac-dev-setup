@@ -50,6 +50,10 @@ project-slug(){
   cd \{\{cookiecutter.project_slug\}\}
 }
 
+start-app-services() {
+  docker-compose up -d postgres elasticsearch elastic-apm kibana
+}
+
 # Helpers for hosts file
 
 # add-host() {

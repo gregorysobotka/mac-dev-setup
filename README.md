@@ -1,4 +1,4 @@
-### Update (in .zshrc file)
+### Update (.zshrc)
 ```
 export CUSTOM_IMPORT_PATH=~/mac-dev-setup
 ZSH_CUSTOM=${CUSTOM_IMPORT_PATH}/zsh/ohmyzsh-custom
